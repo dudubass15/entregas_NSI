@@ -16,7 +16,7 @@
 			<tbody>
 				<?php foreach($lista_view as $b): ?>
 				<tr>
-					<td><?php echo $b['data']; ?></td>
+					<td><?php echo date("d/m/Y", strtotime($b['data']));?></td>
 					<td><?php echo $b['tipoentrega']; ?></td>
 					<td><?php echo $b['ronda']; ?></td>
 					<td><?php echo $b['condominio']; ?></td>
