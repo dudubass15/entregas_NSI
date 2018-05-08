@@ -15,19 +15,6 @@ class homes extends model {
 		return $array;
 	}
 
-	// public function getChaveirosInfo($id) {
-	// 	$array = array();
-
-	// 	$sql = "SELECT * FROM chaveiro WHERE id = $id";
-	// 	$qry = $this->db->query($sql);
-
-	// 	if ($qry->rowCount() > 0) {
-	// 		$array = $qry->fetch();
-	// 	}
-
-	// 	return $array;
-	// }
-
 	public function add($tipoentrega, $ronda, $condominio, $status) {
 		
 		$sql = "INSERT INTO controle_entrega (data, tipoentrega, ronda, condominio, status)";
