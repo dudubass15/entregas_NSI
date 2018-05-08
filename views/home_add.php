@@ -4,7 +4,7 @@
 
 <form method="POST">
   <div class="form-group">
-    <label for="tipoentrega">Tipo Entrega</label>
+    <label for="tipoentrega">Tipo da Entrega</label>
     <select class="form-control" name="tipoentrega" id="tipoentrega">
       <option class=""></option>
       <option value="Chaveiro">Chaveiro</option>

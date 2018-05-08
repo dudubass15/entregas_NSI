@@ -6,8 +6,8 @@
 			<thead>
 				<tr>
 					<th>Data</th>
-					<th>Tipo Entrega</th>
-					<th>Ronda</th>
+					<th>Tipo da Entrega</th>
+					<th>Ronda/Técnico</th>
 					<th>Condomínio</th>
 					<th>Status</th>
 					<th>Ação</th>
