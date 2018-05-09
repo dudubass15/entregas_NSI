@@ -33,11 +33,10 @@
     <label for="status">Status</label>
     <select class="form-control" name="status" id="status">
       <option class=""></option>
+      <option value="Em demanda">Em demanda</option>
       <option value="Entregue">Entregue</option>
       <option value="Retornou">Retornou</option>
       <option value="Cancelado">Cancelado</option>
-      <option value="Nao Entregue">Não Entregue</option>
-      <option value="Nao Houve contato">Não Houve contato</option>
     </select>
   </div>
 

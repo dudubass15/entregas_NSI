@@ -23,6 +23,11 @@ class homes extends model {
 	}
 
 	public function del($id) {
+
+		$sql = "INSERT INTO tabela_geral (data, tipoentrega, ronda, condominio, colaborador, status) 
+				SELECT data, tipoentrega, ronda, condominio, colaborador, status FROM controle_entrega";
+		$this->db->query($sql);
+
 		$sql = "DELETE FROM controle_entrega WHERE id = $id";
 		$this->db->query($sql);
 	}
