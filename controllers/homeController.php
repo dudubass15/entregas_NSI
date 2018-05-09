@@ -6,6 +6,12 @@ class homeController extends controller {
 
 		$home = new homes();
 
+		// if (isset($_POST['pesquisar']) && !empty($_POST['pesquisar'])) {
+		// 	$ronda = addslashes($_POST['pesquisar']);
+		// } else {
+		// 	$ronda ='';
+		// }
+
 		$dados['lista_view'] = $home->getLista();
 
 		$this->loadTemplate('home', $dados);
