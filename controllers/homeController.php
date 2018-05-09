@@ -11,6 +11,16 @@ class homeController extends controller {
 		$this->loadTemplate('home', $dados);
 	}
 
+	public function geral(){
+		$dados = array();
+
+		$home = new homes();
+
+		$dados['geral_lista'] = $home->getListaGeral();
+
+		$this->loadTemplate('home_geral', $dados);
+	}
+
 	public function add() {
 		$dados = array();
 
@@ -37,6 +47,14 @@ class homeController extends controller {
 		$home->del($id);
 
 		header('Location: '.URL.'/home');
+	}
+
+	public function deletar($id) {
+		$home = new homes();
+
+		$home->deletar($id);
+
+		header('Location: '.URL.'/home/geral');
 	}
 
 }

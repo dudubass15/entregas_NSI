@@ -46,7 +46,7 @@
 									</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link active" href="#">
+									<a class="nav-link active" href="<?php echo URL; ?>/home/geral">
 										<span data-feather="settings"></span>
 										Relatório Geral
 									</a>
