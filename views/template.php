@@ -41,8 +41,14 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link active" href="<?php echo URL; ?>/home/add">
-										<span data-feather="file"></span>
+										<span data-feather="file-text"></span>
 										Novo
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="#">
+										<span data-feather="settings"></span>
+										Relatório Geral
 									</a>
 								</li>
 							</ul>
