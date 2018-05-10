@@ -25,6 +25,11 @@
   </div>
 
   <div class="form-group">
+    <label for="apartamento">Apartamento</label>
+    <input class="form-control" name="apartamento" type="text">
+  </div>
+
+  <div class="form-group">
     <label for="condominio">Condomínio</label>
     <input class="form-control" name="condominio" type="text">
   </div>

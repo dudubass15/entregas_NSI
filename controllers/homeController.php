@@ -35,11 +35,12 @@ class homeController extends controller {
 		if (isset($_POST['tipoentrega']) && !empty($_POST['tipoentrega'])) {
 			$tipoentrega = addslashes($_POST['tipoentrega']);
 			$ronda = addslashes($_POST['ronda']);
+			$apartamento = addslashes($_POST['apartamento']);
 			$condominio = addslashes($_POST['condominio']);
 			$status = addslashes($_POST['status']);
 
 			$home = new homes();
-			$home->add($tipoentrega, $ronda, $condominio, $status);
+			$home->add($tipoentrega, $ronda, $apartamento, $condominio, $status);
 
 			header('Location: '.URL.'/home');
 		}

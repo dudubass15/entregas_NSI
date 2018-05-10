@@ -8,6 +8,7 @@
 					<th>Data</th>
 					<th>Tipo da Entrega</th>
 					<th>Ronda/Técnico</th>
+					<th>Apto</th>
 					<th>Condomínio</th>
 					<th>Status</th>
 					<th>Ação</th>
@@ -19,6 +20,7 @@
 					<td><?php echo date("d/m/Y", strtotime($b['data']));?></td>
 					<td><?php echo $b['tipoentrega']; ?></td>
 					<td><?php echo $b['ronda']; ?></td>
+					<td><?php echo $b['apartamento']; ?></td>
 					<td><?php echo $b['condominio']; ?></td>
 					<td><?php echo $b['status']; ?></td>
 					<td style="width: 100px;">
