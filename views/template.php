@@ -69,6 +69,9 @@
 				<script src="<?php echo URL; ?>/assets/js/popper.min.js"></script>
 				<script src="<?php echo URL; ?>/assets/js/bootstrap.min.js"></script>
 
+				<!-- Template JavaScript manual -->
+				<script src="<?php echo URL; ?>/assets/js/template.js"></script>
+
 				<!-- Icons -->
 				<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
 				<script>
