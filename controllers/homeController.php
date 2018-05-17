@@ -42,7 +42,7 @@ class homeController extends controller {
 			$home = new homes();
 			$home->add($tipoentrega, $ronda, $apartamento, $condominio, $status);
 
-			header('Location: '.URL.'/home');
+			header('Location: '.URL.'/home/add');
 		}
 
 		$this->loadTemplate('home_add', $dados);

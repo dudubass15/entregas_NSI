@@ -47,7 +47,13 @@
 
   <div style="width: 100%; height: 120px;">
     <div style="text-align: center;">
-      <button class="btn btn-primary" type="submit">Cadastrar</button>
+      <button class="btn btn-primary" type="submit" onclick="cadastrar()">Cadastrar</button>
     </div>
   </div>
 </form>
+
+<script type="text/javascript">
+  function cadastrar() {
+    alert("Registro arquivado com sucesso !");
+  }
+</script>

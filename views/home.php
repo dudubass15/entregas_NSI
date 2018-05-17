@@ -24,7 +24,7 @@
 					<td><?php echo $b['condominio']; ?></td>
 					<td><?php echo $b['status']; ?></td>
 					<td style="width: 100px;">
-						<a href="<?php echo URL; ?>/home/del/<?php echo $b['id']; ?>"><span data-feather="check-circle"></span></a>
+						<a href="<?php echo URL; ?>/home/del/<?php echo $b['id']; ?>"><span data-feather="check-circle" onclick="arquivar()"></span></a>
 					</td>
 				</tr>
 				<?php endforeach; ?>
@@ -32,3 +32,9 @@
 		</table>
 	</div>
 </main>
+
+<script type="text/javascript">
+	function arquivar() {
+		alert("Informação arquivada com sucesso !");
+	}
+</script>
