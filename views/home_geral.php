@@ -24,11 +24,23 @@
 					<td><?php echo $b['condominio']; ?></td>
 					<td><?php echo $b['status']; ?></td>
 					<td style="width: 100px;">
-						<a href="<?php echo URL; ?>/home/deletar/<?php echo $b['id']; ?>"><span data-feather="trash-2"></span></a>
+						<a href="<?php echo URL; ?>/home/deletar/<?php echo $b['id']; ?>"><span data-feather="trash-2" onclick="myFunction()"></span></a>
 					</td>
 				</tr>
 				<?php endforeach; ?>
 			</tbody>
+			<p id="demo"></p>
 		</table>
 	</div>
 </main>
+
+<script type="text/javascript">
+	function myFunction() {
+	    var txt;
+	    if (confirm("Press a button!")) {
+	        txt = "You pressed OK!";
+	    } else {
+	        return
+	    }
+	}
+</script>
